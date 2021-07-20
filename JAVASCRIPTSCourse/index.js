@@ -66,7 +66,7 @@ var result = 'hello' + ' ' + yourName;
 console.log(result);
 }
 
-var name = prompt('What is your name?');
+//var name = prompt('What is your name?');
 //greeting(name);
 
 
@@ -78,6 +78,35 @@ function sumNumbers(num1, num2){
 }
 //sumNumbers(10,10);
 
+// While Loops
+
+var num = 0;
+
+while(num<100){
+    num+=1;
+    console.log(num)
+}
+
+
+//for Loops
+
+ for(let num =0; num<100; num++){
+     console.log(num);
+ }
+
+
+//Datatypes
+
+ let  yourAge = 18; // number 
+ let yourName =" philia" // string
+ let name = {first: 'Jane', last: 'Doe'}; // Object
+ let truth = false; // boolean 
+ let groceries = ["apple","banana", "fruit"]; //array
+ let random; //undefined 
+ let nothing = null; // value null;
+
+
+ 
 
 
 
