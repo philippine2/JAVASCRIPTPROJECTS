@@ -97,16 +97,34 @@ while(num<100){
 
 //Datatypes
 
- let  yourAge = 18; // number 
+/* let  yourAge = 18; // number 
  let yourName =" philia" // string
  let name = {first: 'Jane', last: 'Doe'}; // Object
  let truth = false; // boolean 
  let groceries = ["apple","banana", "fruit"]; //array
  let random; //undefined 
  let nothing = null; // value null;
+ */
+
+ // strings in Javacript(common method)
+
+ let fruit ="banana, apple, orange";
+ let moreFruit= "banana\napple"; // new line
+ console.log(moreFruit);
+
+console.log(fruit.length)
+console.log(fruit.indexOf("na"))
+console.log(fruit.slice(2,4))
+console.log(fruit.replace("na", "123"))
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.charAt(5))
+console.log(fruit[2]);
+console.log(fruit.split(','));// split by comma
+console.log(fruit.split(''));// split by character
 
 
- 
+
 
 
 
